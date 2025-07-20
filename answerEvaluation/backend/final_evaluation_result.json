@@ -1,0 +1,50 @@
+{
+  "scores": {
+    "student_id": null,
+    "total_score_awarded": 4,
+    "detailed_scores": [
+      {
+        "question_number": 1,
+        "score": 3,
+        "max_marks": 10
+      },
+      {
+        "question_number": 2,
+        "score": 0,
+        "max_marks": 10
+      },
+      {
+        "question_number": 3,
+        "score": 1,
+        "max_marks": 6
+      },
+      {
+        "question_number": 4,
+        "score": 0,
+        "max_marks": 4
+      }
+    ]
+  },
+  "feedback": {
+    "student_id": null,
+    "summary_feedback": "Your overall performance is weak. You need to significantly improve your understanding of the core concepts and provide more comprehensive and detailed answers. Focus on addressing all parts of a question, defining terms clearly, and explaining processes thoroughly. Review the provided answer key carefully to understand the depth expected.",
+    "detailed_feedback": [
+      {
+        "question_number": 1,
+        "feedback": "Your definition of API (Application Programming Interface) is partially correct, identifying it as a set of protocols or tools for communication between programs. However, you missed a significant part of the question by not explaining the 'importance' of APIs. For a full score, both aspects needed to be covered in detail, including benefits like integration, automation, innovation, and time-saving."
+      },
+      {
+        "question_number": 2,
+        "feedback": "Your answer for the difference between POST (an HTTP method used in REST) and SOAP API is extremely vague and provides no meaningful information. Stating 'Rest API is REST and SOAP is not' does not explain their fundamental differences. You need to elaborate on their distinct characteristics, such as underlying protocols (HTTP vs. XML-based), data formats (JSON vs. XML), complexity, flexibility, and typical use cases."
+      },
+      {
+        "question_number": 3,
+        "feedback": "You correctly highlighted *why* API authentication is important (protecting access to sensitive data). However, your answer lacked a clear definition of what API authentication is and, more crucially, a description of *how* it works. You also missed mentioning common authentication methods like API Keys, OAuth, or JWT. Ensure you cover both the 'what' and 'how' for such questions."
+      },
+      {
+        "question_number": 4,
+        "feedback": "This question was not attempted."
+      }
+    ]
+  }
+}
