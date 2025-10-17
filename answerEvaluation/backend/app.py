@@ -28,7 +28,7 @@ def health_check():
 def evaluate_script():
     try:
         # Check if API key is available
-        api_key = "AIzaSyCYNmddaCiFaaKATOe5ke_WcUtP0r_ibqg"
+        api_key = "AIzaSyCYNmddaCiFaaKATOe5cUtP0r_ibqg"
         if not api_key:
             return jsonify({
                 "error": "GEMINI_API_KEY environment variable not set"
